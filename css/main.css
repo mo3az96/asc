@@ -566,6 +566,14 @@ html[dir=ltr] .newsletter-button:after {
   }
 }
 
+.features .owl-dots .owl-dot.active {
+  background: #fff;
+  pointer-events: none;
+}
+.features .owl-dots .owl-dot:hover {
+  background: #fff;
+}
+
 @media (max-width: 767px) {
   .nav-foot-cont {
     margin-bottom: 5px;
@@ -861,11 +869,11 @@ html[dir=ltr] .newsletter-button:after {
   align-items: center;
 }
 .pre-loader img {
-  width: 220px;
+  width: 260px;
 }
 @media (max-width: 767px) {
   .pre-loader img {
-    width: 110px;
+    width: 130px;
   }
 }
 .pre-loader .content {
@@ -1195,6 +1203,11 @@ html[dir=ltr] .drop-cont .drop-anchor img {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+@media (max-width: 992px) {
+  .user-anchor {
+    font-size: 22px;
+  }
+}
 html[dir=ltr] .user-anchor {
   margin-left: 0;
   margin-right: 19px;
@@ -1255,8 +1268,8 @@ html[dir=ltr] .user-anchor.mo-cart-icon {
 }
 @media (max-width: 767px) {
   .features-cont {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     margin-top: 60px;
   }
 }
@@ -1273,7 +1286,7 @@ html[dir=ltr] .user-anchor.mo-cart-icon {
 }
 @media (max-width: 767px) {
   .feature {
-    padding: 20px 0;
+    padding: 0 0;
     margin: auto;
     width: 200px;
   }
