@@ -5,6 +5,7 @@ $(window).on('load', function () {
     });;
 });
 $(document).ready(function () {
+    new WOW().init();
     /////////Main Slider/////////
     $('.main-slider').owlCarousel({
         items: 1,
