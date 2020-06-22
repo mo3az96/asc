@@ -1255,11 +1255,13 @@ html[dir=ltr] .user-anchor.mo-cart-icon {
 }
 @media (max-width: 767px) {
   .feature {
-    padding: 20px 75px;
+    padding: 20px 0;
+    margin: auto;
+    width: 200px;
   }
-}
-html[dir=ltr] .feature {
-  padding: 20px 35px;
+  html[dir=ltr] .feature {
+    width: 250px;
+  }
 }
 .feature span {
   border-radius: 50%;
