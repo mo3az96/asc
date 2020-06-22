@@ -348,7 +348,7 @@ html[dir=ltr] .newsletter-button:after {
   transition: all 0.3s ease-in-out;
 }
 .nav-a:hover, .nav-a:focus {
-  color: #000000;
+  color: #f3e9c4;
 }
 
 .owl-carousel {
